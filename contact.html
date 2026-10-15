@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us - Student Registration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { font-family: Arial, sans-serif; padding: 10px; }
+  table { width: 100%; border-collapse: collapse; }
+  td { vertical-align: top; border: 1px solid black; padding: 8px; width: 33%; }
+  fieldset { border: 1px solid black; margin-bottom: 10px; }
+  legend { font-weight: bold; font-size: 12px; }
+  label { font-size: 12px; }
+  input, select, textarea { border: 1px solid black; margin-bottom: 5px; width: 95%; }
+  input[type="radio"], input[type="checkbox"] { width: auto; }
+  nav ul { list-style: none; padding: 0; display: flex; gap: 15px; }
+  progress, meter { width: 100px; }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html"><strong>MyCompany</strong></a>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="services.html">Our Services</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+
+<h2>CONTACT US</h2>
+<h3 style="text-align:center;">STUDENT REGISTRATION FORM</h3>
+<p style="text-align:center; font-size:12px;">Complete all sections of this form. This form is intentionally presented without CSS.</p>
+
+<form>
+<table>
+<tr>
+<!-- ROW 1 -->
+<td>
+  <fieldset>
+    <legend>1. PERSONAL INFORMATION</legend>
+    First Name:*<br><input type="text" required><br>
+    Middle Name:<br><input type="text"><br>
+    Last Name:*<br><input type="text" required><br>
+    Username:<br><input type="text"><br>
+    Password:*<br><input type="password" required><br>
+    Email Address:*<br><input type="email" required><br>
+    Phone Number:<br><input type="tel"><br>
+    Personal Website:<br><input type="url"><br>
+    Search:<br><input type="search"><br>
+    Date of Birth:<br><input type="date"><br>
+    Time of Birth:<br><input type="time"><br>
+    Date & Time of Birth:<br><input type="datetime-local"><br>
+    Birth Month:<br><input type="month"><br>
+    Birth Week:<br><input type="week"><br>
+    Gender:*<br>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Other
+  </fieldset>
+</td>
+<td>
+  <fieldset>
+    <legend>2. ADDRESS INFORMATION</legend>
+    Home Address:<br>
+    <textarea rows="3"></textarea><br>
+    Country:*<br>
+    <select><option>-- Select Country --</option><option>Nigeria</option><option>Ghana</option></select><br>
+    State:<br>
+    <select><option>-- Select State --</option><option>Oyo</option><option>Lagos</option></select><br>
+    City:<br>
+    <select><option></option></select><br>
+    Postal Code:<br><input type="text">
+  </fieldset>
+  <fieldset>
+    <legend>3. EDUCATION DETAILS</legend>
+    Name of Institution:*<br><input type="text"><br>
+    Type of Institution:<br>
+    <select><option>-- Select --</option></select><br>
+    Main Course of Study:<br><input type="text"><br>
+    Field of Study:<br>
+    <select><option>-- Select Field --</option></select><br>
+    Specialization:<br><input type="text"><br>
+    Highest Qualification:<br>
+    <select><option>-- Select --</option></select><br>
+    Study Mode:*<br>
+    <input type="radio" name="mode" checked> Full-Time
+    <input type="radio" name="mode"> Part-Time
+    <input type="radio" name="mode"> Online
+  </fieldset>
+</td>
+<td>
+  <fieldset>
+    <legend>4. COURSE REGISTRATION</legend>
+    Number of Courses: <input type="number" value="1" style="width:60px"><br>
+    Years of Experience: <input type="number" value="0" style="width:60px"><br>
+    Current Skill Level: <input type="range" value="50"><br>
+    Preferred Class Time: <input type="time"><br>
+    Select the technologies you are interested in:<br>
+    <input type="checkbox"> HTML <input type="checkbox"> TypeScript<br>
+    <input type="checkbox"> CSS <input type="checkbox"> Python<br>
+    <input type="checkbox"> JavaScript <input type="checkbox"> Flutter
+  </fieldset>
+  <fieldset>
+    <legend>5. DOCUMENTS AND MEDIA</legend>
+    Passport Photograph: <input type="file"><br>
+    Upload Certificates: <input type="file" multiple><br>
+    Favourite Color: <input type="color" value="#000000" style="width:50px">
+  </fieldset>
+</td>
+</tr>
+
+<tr>
+<!-- ROW 2 -->
+<td>
+  <fieldset>
+    <legend>6. PREFERENCES</legend>
+    Preferred Language (select multiple):<br>
+    <select multiple size="6">
+      <option>English</option>
+      <option>French</option>
+      <option>Spanish</option>
+      <option>Yoruba</option>
+      <option>Hausa</option>
+      <option>Igbo</option>
+    </select><br>
+    Additional Comments:<br>
+    <textarea rows="3"></textarea><br>
+    How satisfied are you with this form?<br>
+    <input type="range" min="1" max="10" value="5"> 5
+  </fieldset>
+</td>
+<td>
+  <fieldset>
+    <legend>7. VALIDATION PRACTICE</legend>
+    Required Field:*<br><input type="text" required><br>
+    Read Only Field:<br><input type="text" value="You cannot edit this" readonly><br>
+    Disabled Field:<br><input type="text" value="This field is disabled" disabled><br>
+    Enter 5 digits:<br><input type="text" pattern="[0-9]{5}" value="12345" placeholder="(Pattern: [0-9]{5})"><br>
+    Number (10 to 100):<br><input type="number" min="10" max="100" value="10">
+  </fieldset>
+</td>
+<td>
+  <fieldset>
+    <legend>8. MORE INPUT TYPES</legend>
+    Input Types:<br>
+    Color: <input type="color" value="#000000" style="width:40px"><br>
+    Range (1-10): <input type="range" min="1" max="10" value="5"> 5<br>
+    Number (0-100): <input type="number" value="0"><br>
+    Email: <input type="email" value="example@email.com"><br>
+    Tel: <input type="tel" value="08012345678"><br>
+    URL: <input type="url" value="https://example.com"><br>
+    Search: <input type="search" placeholder="Type to search..."><br>
+    Date: <input type="date"><br>
+    Time: <input type="time"><br>
+    Datetime Local: <input type="datetime-local"><br>
+    Month: <input type="month"><br>
+    Week: <input type="week"><br>
+    File Upload: <input type="file"><br>
+    File Upload (Multiple): <input type="file" multiple><br>
+    Radio Buttons (Choose one):<br>
+    <input type="radio" name="r1" checked> Option 1<br>
+    <input type="radio" name="r1"> Option 2<br>
+    <input type="radio" name="r1"> Option 3<br>
+    Checkboxes (Choose all that apply):<br>
+    <input type="checkbox"> Option A<br>
+    <input type="checkbox"> Option B<br>
+    <input type="checkbox"> Option C
+  </fieldset>
+</td>
+</tr>
+
+<tr>
+<!-- ROW 3 -->
+<td>
+  <fieldset>
+    <legend>9. FORM STATUS / OUTPUT</legend>
+    Form Completion: <progress value="70" max="100"></progress> 70%<br>
+    Student Skill Rating: <meter value="75" min="0" max="100"></meter> 75 out of 100<br>
+    Score: <output>75</output>
+  </fieldset>
+  <fieldset>
+    <legend>10. HIDDEN FIELD (Will not be visible)</legend>
+    Form Type: <input type="hidden" value="student-registration"> student-registration
+  </fieldset>
+</td>
+<td colspan="2">
+  <fieldset>
+    <legend>11. SUBMIT FORM</legend>
+    Using Input Buttons:<br>
+    <input type="submit" value="Submit Registration" style="width:auto">
+    <input type="reset" value="Reset Form" style="width:auto">
+    <input type="button" value="Normal Button" style="width:auto"><br><br>
+    Using Button Elements:<br>
+    <button type="submit">Submit Using Button</button>
+    <button type="reset">Reset Using Button</button><br><br>
+    <button type="button">Normal Button</button><br><br>
+    <small>(Buttons above do not perform any action without backend)</small>
+  </fieldset>
+</td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
