@@ -1,22 +1,13 @@
 <html>
 <head>
 <title>VCHUB Time-Table</title>
-<style>
-  body { font-family: Arial, sans-serif; padding: 20px; }
-  table { border-collapse: collapse; width: 100%; margin-bottom: 30px; text-align: center; }
-  th, td { border: 1px solid black; padding: 8px; }
-  h2, h3, p { text-align: center; }
-  h4 { margin-bottom: 5px; }
-  nav ul { list-style: none; padding: 0; display: flex; gap: 20px; }
-  .left { text-align: left; }
-</style>
-
 </head>
 <body>
 
-<header>
+<img src="com logo.jpg" alt="Company Logo " width="50px" height="50px">   
+<head>
       <a href="index.html"><strong> Hire Me! </strong></a>
-</header>
+</head>
 <nav>
   <ul>
     <li><a href="index.html">Home</a></li>
@@ -25,254 +16,145 @@
     <li><a href="contact.html">Contact Us</a></li>
   </ul>
 </nav>
+<img src="com pics.jpg" alt="Company Picture " width="100%" height="400px">
+
+    <table border="1" cellpadding="8">
+        <caption> Student Mark Sheet </caption>
+        <tr>
+            <th> S/N </th>
+            <th> Name </th>
+            <th> HTML </th>
+            <th> CSS </th>
+            <th> JS </th>
+            <th> Total </th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Alex</td>
+            <td>85</td>
+            <td>90</td>
+            <td>88</td>
+            <td>263</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bella</td>
+            <td>78</td>
+            <td>85</td>
+            <td>80</td>
+            <td>243</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Chris</td>
+            <td>92</td>
+            <td>95</td>
+            <td>93</td>
+            <td>280</td>
+        </tr>
+        <tr>
+            <th colspan="2">Average</th>
+            <td>85.00</td>
+            <td>90.00</td>
+            <td>87.00</td>
+            <td>262.00</td>
+        </tr>
+    </table>
 
 
-<h2>AUGUST 2026 VCHUB TRAINING TIME-TABLE (HTML TABLE DEMO)</h2>
-<p>This table demonstrates almost all important HTML table elements and features.</p>
+    <h2>2. Colspan Example</h2>
+    <table border="1" cellpadding="8">
+        <caption>Department Courses</caption>
+        <tr>
+            <th rowspan="2">Department</th>
+            <th colspan="3">Courses Offered</th>
+        </tr>
+        <tr>
+            <th>Course 1</th>
+            <th>Course 2</th>
+            <th>Course 3</th>
+        </tr>
+        <tr>
+            <td>Web Dev</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+        </tr>
+        <tr>
+            <td>Data Science</td>
+            <td>Python</td>
+            <td>SQL</td>
+            <td>ML</td>
+        </tr>
+    </table>
 
-<!-- MAIN BIG TABLE -->
-<table>
-  <tr>
-    <th colspan="8">Training Schedule for August 2026</th>
-  </tr>
-  <tr>
-    <th>Days</th>
-    <th>Venue / Room</th>
-    <th>Morning Session<br>9am - 12am</th>
-    <th>Afternoon Session<br>12 pm - 3:00 pm</th>
-    <th>Evening Session<br>3:00pm - 5:30pm</th>
-    <th>Trainer</th>
-    <th>Capacity</th>
-    <th>Status</th>
-  </tr>
-  <tr>
-    <td rowspan="2">Monday</td>
-    <td>Room 1</td>
-    <td>CSS & Tailwind</td>
-    <td>Javascript</td>
-    <td>Basic Computer</td>
-    <td>John Doe</td>
-    <td>30</td>
-    <td>Open</td>
-  </tr>
-  <tr>
-    <td>Room 2</td>
-    <td>Holiday Basic Computer<br>U.I & U.X</td>
-    <td>SQL</td>
-    <td>Graphic Design</td>
-    <td>Jane Smith</td>
-    <td>25</td>
-    <td>Open</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Tuesday</td>
-    <td>Room 1</td>
-    <td>HTML & GIT</td>
-    <td>SQL</td>
-    <td>Graphic Design</td>
-    <td>Mike Brown</td>
-    <td>28</td>
-    <td>Open</td>
-  </tr>
-  <tr>
-    <td>Room 2</td>
-    <td>Holiday A.I class</td>
-    <td>X</td>
-    <td>-</td>
-    <td>-</td>
-    <td>Holiday</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Wednesday</td>
-    <td>Room 1</td>
-    <td>CSS & Tailwind</td>
-    <td>Javascript</td>
-    <td>Basic Computer</td>
-    <td>John Doe</td>
-    <td>30</td>
-    <td>Open</td>
-  </tr>
-  <tr>
-    <td>Room 2</td>
-    <td>Holiday Basic Computer<br>U.I & U.X</td>
-    <td>X</td>
-    <td>-</td>
-    <td>-</td>
-    <td>Holiday</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Thursday</td>
-    <td>Room 1</td>
-    <td>HTML & GIT</td>
-    <td>SQL</td>
-    <td>Basic Computer</td>
-    <td>Mike Brown</td>
-    <td>28</td>
-    <td>Open</td>
-  </tr>
-  <tr>
-    <td>Room 2</td>
-    <td>Holiday A.I class</td>
-    <td>X</td>
-    <td>Graphic Design</td>
-    <td>Jane Smith</td>
-    <td>25</td>
-    <td>Open</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Friday</td>
-    <td>Room 1</td>
-    <td>CSS & Tailwind</td>
-    <td>HTML & GIT</td>
-    <td>Javascript</td>
-    <td>John Doe</td>
-    <td>30</td>
-    <td>Open</td>
-  </tr>
-  <tr>
-    <td>Room 2</td>
-    <td>Holiday Basic Computer<br>U.I & U.X</td>
-    <td>X</td>
-    <td>-</td>
-    <td>-</td>
-    <td>Holiday</td>
-  </tr>
-  <tr>
-    <td>Saturday</td>
-    <td>Room 1</td>
-    <td>X</td>
-    <td>-</td>
-    <td>0</td>
-    <td>Closed</td>
-  </tr>
-  <tr>
-    <th>Total Rooms: 2</th>
-    <th colspan="4">Total Daily Capacity (Mon - Fri): 291</th>
-    <th colspan="3">Note: X = No Class</th>
-  </tr>
-</table>
 
-<!-- TABLE 1 -->
-<h4>1. TABLE STRUCTURE EXAMPLE</h4>
-<table>
-  <caption>Student Mark Sheet</caption>
-  <thead>
-    <tr>
-      <th>S/N</th>
-      <th>Name</th>
-      <th>HTML</th>
-      <th>CSS</th>
-      <th>JS</th>
-      <th>Total</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>1</td><td>Alex</td><td>85</td><td>90</td><td>88</td><td>263</td></tr>
-    <tr><td>2</td><td>Bella</td><td>78</td><td>85</td><td>80</td><td>243</td></tr>
-    <tr><td>3</td><td>Chris</td><td>92</td><td>95</td><td>93</td><td>280</td></tr>
-  </tbody>
-  <tfoot>
-    <tr><td colspan="2">Average</td><td>85.00</td><td>90.00</td><td>87.00</td><td>262.00</td></tr>
-  </tfoot>
-</table>
-<p class="left"><small>Uses: thead, tbody, tfoot, tr, th, td, caption</small></p>
+    <h2>3. Rowspan Example</h2>
+    <table border="1" cellpadding="8">
+        <caption>Event Schedule</caption>
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Event</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Day 1</td>
+            <td>9am - 12pm</td>
+            <td>Registration</td>
+        </tr>
+        <tr>
+            <td>1pm - 4pm</td>
+            <td>Orientation</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Day 2</td>
+            <td>9am - 12pm</td>
+            <td>Training</td>
+        </tr>
+        <tr>
+            <td>1pm - 4pm</td>
+            <td>Project Work</td>
+        </tr>
+    </table>
 
-<!-- TABLE 2 -->
-<h4>2. COLSPAN EXAMPLE</h4>
-<table>
-  <caption>Department Courses</caption>
-  <tr>
-    <th rowspan="2">Department</th>
-    <th colspan="3">Courses Offered</th>
-  </tr>
-  <tr>
-    <th>Course 1</th>
-    <th>Course 2</th>
-    <th>Course 3</th>
-  </tr>
-  <tr>
-    <td>Web Dev</td>
-    <td>HTML</td>
-    <td>CSS</td>
-    <td>JavaScript</td>
-  </tr>
-  <tr>
-    <td>Data Science</td>
-    <td>Python</td>
-    <td>SQL</td>
-    <td>ML</td>
-  </tr>
-</table>
-<p class="left"><small>Uses: colspan</small></p>
 
-<!-- TABLE 3 -->
-<h4>3. ROWSPAN EXAMPLE</h4>
-<table>
-  <caption>Event Schedule</caption>
-  <tr>
-    <th>Day</th>
-    <th>Time</th>
-    <th>Event</th>
-  </tr>
-  <tr>
-    <td rowspan="2">Day 1</td>
-    <td>9am - 12pm</td>
-    <td>Registration</td>
-  </tr>
-  <tr>
-    <td>1pm - 4pm</td>
-    <td>Orientation</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Day 2</td>
-    <td>9am - 12pm</td>
-    <td>Training</td>
-  </tr>
-  <tr>
-    <td>1pm - 4pm</td>
-    <td>Project Work</td>
-  </tr>
-</table>
-<p class="left"><small>Uses: rowspan</small></p>
-
-<!-- TABLE 4 -->
-<h4>4. NESTED TABLE EXAMPLE</h4>
-<table>
-  <caption>Employee Details</caption>
-  <tr>
-    <th>ID</th>
-    <th>Name</th>
-    <th>Contact Details</th>
-  </tr>
-  <tr>
-    <th></th>
-    <th></th>
-    <th>
-      <table style="margin:0; border:none; width:100%;">
-        <tr><th>Email</th><th>Phone</th></tr>
-      </table>
-    </th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>John Doe</td>
-    <td>
-      <table style="margin:0; border:none; width:100%;">
-        <tr><td>john@example.com</td><td>08012345678</td></tr>
-      </table>
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Jane Smith</td>
-    <td>
-      <table style="margin:0; border:none; width:100%;">
-        <tr><td>jane@example.com</td><td>09087654321</td></tr>
-      </table>
-    </td>
-  </tr>
-</table>
-<p class="left"><small>Uses: table inside td (nested table)</small></p>
+    <h2>4. Nested Table Example</h2>
+    <table border="1" cellpadding="8">
+        <caption>Employee Details</caption>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Contact Details</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                    <tr>
+                        <td> john@example.com </td>
+                        <td> 08012345678 </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <td> jane@example.com </td>
+                        <td>09087654321</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 
 </body>
 </html>
