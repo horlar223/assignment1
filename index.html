@@ -2,9 +2,12 @@
     <head>
     <title> home page </title>
     <body>
-    <img src="com logo.jpg" alt="Company Logo " width="50px" height="50px" />
-    </head>           
-    <h1> Welcome To My Home Page!</h1>  
+<a> 
+    
+    </head>          
+    <h1><img src="com logo.jpg" alt="Company Logo " width="50px" height="50px" />
+         Welcome To My Home Page!</h1>  
+</a>
 <nav>
   <ul>
     <li><a href="index.html">Home</a></li>
@@ -15,7 +18,7 @@
 </nav>
     <img src="com pics.jpg" alt="Company Picture " width="100%" height="400px" />
     </ul>    
-    <p> This page illustrates how you can write proper HTML using only a text editor,<br /> such as windows Notespad You can also download a free text editor, such as <br /> Crimson Editor which is better than Notepad. </p>
+    <p> This page illustrates how you can write proper HTML using only a text editor, such as windows Notespad You can also download a free text editor, such as <br /> Crimson Editor which is better than Notepad. </p>
       
     <p> There is a small graphic after the period at the end of this sentence. <br /> The graphic is in a file. The file is inside a folder named "image" </p>
 
@@ -48,6 +51,55 @@
    <p> This is some original text. <ins> This is some new test that has been added. </ins></p>
    <p><ins> this was added on January 1st, 2022.</ins> <del> This test is deleted </del> <ins> This is added </ins></p>
 
+   <div style=" margin-left: 300x">
+    <form>
+        <label> Full Name:</label>
+        <input
+         type="text" name=" FullName" 
+         placeholder="e.g user name" 
+         maxlength="30"
+         minlength="5"
+         required/> <br /> <br />
+        
+        <label> Age: </label>
+        <input type="number"> <br /> <br />
+
+        <label> Gender:</label>
+        <input type="radio" value=" Male" /><label> Male </label> 
+        <input type="radio" value=" Female" /><label> Female </label> <br /> <br />
+
+        <label> car colour </label>
+        <input type="checkbox" value="red"><label>Red</label>
+        <input type="checkbox" value=" black"><label>Black</label>
+        <input type="checkbox" value=" white"><label>White</label>
+        <input type="checkbox" value=" green"><label>Green</label> <br /><br />
+
+        <label> Best Prefered Color</label>
+        <input type="color" /><br /> <br />
+
+        <label>Date Of Birth:</label>
+        <input type="date" /><br /> <br />
+
+        <label> Assignment Completion:0 -100%</label>
+        <input type="range" min="0" max="100" value="12"><br /> <br />
+        
+        <label> Upload Passport</label>
+        <input type="file"><br /> <br />
+
+        <label for="State of origin"> State Of Origin</label>
+        <select name="soo" id="soo">
+            <option value="osun">Osun</option>
+            <option value="oyo">Oyo</option>
+            <option value="lagos">Lagos</option>
+            <option value="ekiti">Ekiti</option>
+        </select><br /><br />
+
+        <input type="submit" value="login" />
+        <input type="reset" value="clear" />
+        
+
+
+    </form>
 
     </body>
    
