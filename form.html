@@ -1,0 +1,144 @@
+<html> 
+    <head>
+        <title>Form Page</title>
+    </head>
+    <body>
+        <h1>FORM PAGE</h1>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Our Services</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="form.html">Our Form</a></li>
+    </ul>
+
+
+        <div style=" margin-left: 300x">
+    <form style="width:400; border:1px solid; background: blue; color: white; padding:">
+        <fieldset>
+             <legend> Bio data</legend> 
+        <label> Full Name:</label>
+        <input
+         type="text" name=" FullName" 
+         placeholder="e.g user name" 
+         maxlength="30"
+         minlength="5"
+         required /> <br /> <br />
+        
+        <label> Age: </label>
+        <input type="number"> <br /> <br />
+
+        <label>Gender:</label>
+        <input type="radio" value=" Male" /><label> Male </label> 
+        <input type="radio" value=" Female" /><label> Female </label> <br /> <br />
+
+        <label>Date Of Birth:</label>
+        <input type="date" /><br /> <br />
+
+        <label for="State of origin">State Of Origin:</label>
+        <select name="soo" id="soo">
+            <option value="select yours">Click to select your state</option>
+            <option value="osun">Osun</option>
+            <option value="oyo">Oyo</option>
+            <option value="lagos">Lagos</option>
+            <option value="ekiti">Ekiti</option>
+        </select><br /><br />
+
+        <label>Upload Passport:</label>
+        <input type="file"><br /> <br />
+        </fieldset>
+
+        <fieldset>
+            <legend>Login info</legend>
+          <label for="username">Username:</label>
+        <input type="test" 
+        placeholder="preferred username" 
+        name="username" id=" username"
+        required /><br/> <br />
+
+        <label for="password">Password:</label>
+        <input type="password"
+         placeholder="preferred password" 
+         name="password" id="password"
+        required /><br/> <br />
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="preferred email" name="email" id="email" required /><br /> <br />
+        </fieldset>
+
+        <fieldset>
+            <legend>Colour</legend>
+            
+        <label>car colour:</label>
+        <input type="checkbox" value="red"><label>Red</label>
+        <input type="checkbox" value=" black"><label>Black</label>
+        <input type="checkbox" value=" white"><label>White</label>
+        <input type="checkbox" value=" green"><label>Green</label> <br /><br />
+
+        <label> Best Prefered Color:</label>
+        <input type="color" /><br /> <br />
+
+
+        <label> Assignment Completion:0 -100%:</label>
+        <input type="range" min="0" max="100" value="12"><br /> <br />
+
+        <input type="button" value="text button 1" /> <button> text button 2</button><br/> <br />
+
+        <label for="nextcourse">Next Course:</label>
+        <input list="nextcourses" id="nextcouse" name="nextcourse">
+            <datalist id="nextcourses">
+                <option> Git and Github </option>
+                <option> CSS </option>
+                <option> Tailwind </option>
+                <option> Vanilla Javascript </option>
+                <option> Typescript </option>
+                <option> React.js </option>
+            </datalist> <br/> <br />
+        </fieldset>
+<br/> <br /><br/> <br /><br/> <br /><br/> <br />
+         <input type="submit" value="login" />
+        <input type="reset" value="clear" />
+
+       
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
